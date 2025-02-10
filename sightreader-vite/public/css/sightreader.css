@@ -1,0 +1,211 @@
+.container{
+    width: 80%;
+}
+.container h3{
+    text-align: center;
+}
+#status{
+    color: #aaa;
+    margin-bottom: 5px;
+}
+#defaultCanvas0{
+    display: none;
+}
+.controls div label{
+    display: inline-block;
+    vertical-align: top;
+}
+#notation{
+    height: 100px;
+    /* border: 1px solid #eee; */
+    /* background-color: #eee; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#abc-textarea-container{
+    text-align: center;
+}
+#abc-textarea{
+    width: 74%;
+    height: 150px;
+    font-size: initial;
+    line-height: initial;
+}
+.controls div select, .controls div button{
+    height: 30px;
+    vertical-align: top;
+}
+.controls div button{
+    width: 55px;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #999;
+    border-radius: 2px;
+}
+.controls div button:hover{
+    /* background-color: white; */
+}
+.controls select{
+    margin-bottom: 0;
+}
+.controls label{
+    margin-bottom: 0;
+}
+.main-display {
+    text-align: center;
+}
+.main-display span{
+    color: #999;
+}
+#tempo{
+    width: 100px;
+}
+#current-note{
+    float: left;
+    margin-top: -2em;
+    margin-left: 0.25em;
+    display: inline-block;
+    max-width: 100px;
+    overflow: hidden;
+}
+#current-volume{
+    float: left;
+    margin-top: -2em;
+    margin-left: 6em;
+    color: #999;
+    display: inline-block;
+}
+.upper-right-info{
+    color: #999;
+    float: right;
+    position: relative;
+    vertical-align: bottom;
+    text-align: right;
+    display: inline-block;
+    bottom: -2em;
+    right: 1em;
+    line-height: 0;
+}
+#tune.active{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#score-stats{
+    padding-left: 1em;
+}
+.keyboard-legend img{
+    opacity: 0.5;
+}
+#count-down{
+    float: left;
+    margin-top: -2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    color: #222;
+    display: inline-block;
+    text-align: center;
+}
+#loaded-filename{
+    float: right;
+    margin-top: -2em;
+    margin-right: 0.25em;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+}
+.list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 2em;
+}
+ol.list-group{
+    list-style-type: decimal;
+}
+.list-group-item:first-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.list-group-item {
+    position: relative;
+    display: list-item;
+    list-style-position: inside;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    cursor: pointer;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.main-display .good{
+    color: green;
+}
+.main-display .bad{
+    color: red;
+}
+.top-info{
+    margin-bottom: -2em;
+    margin-top: 4px;
+    position: relative;
+    float: left;
+}
+.top-info div{
+    border:0px solid red;
+    color: #999;
+}
+.top-info .left{
+    text-align: left;
+    padding-left: 0.25em;
+}
+.top-info .center{
+    text-align: center;
+}
+.top-info .right{
+    text-align: right;
+    padding-right: 0.25em;
+}
+.controls div .cb-field{
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #aaa;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: #777;
+}
+.controls div .cb-field input{
+    padding-left: 5px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+.controls div .cb-field label{
+    padding-left: 5px;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 400px) {
+    .modal{
+        width: 300px;
+        margin-left: -150px;
+    }
+}
