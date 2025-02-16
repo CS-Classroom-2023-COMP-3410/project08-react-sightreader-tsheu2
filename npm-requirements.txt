@@ -1,3 +1,0 @@
-pitchfinder
-watchify
-jshint
